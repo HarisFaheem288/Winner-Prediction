@@ -7,7 +7,7 @@ import streamlit as st
 
 # Load and prepare the dataset
 def prepare_data():
-    df = pd.read_csv("Task.csv")
+    df = pd.read_csv("task.csv")
     df = df.drop("Date", axis=1)
 
     # Encode categorical columns
